@@ -116,6 +116,79 @@ object-fit: fill;
 
 
 
+.Mybutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+}
+.main-about-parent{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.316); /* Green */
+}
+.left-about-child{
+  background: green; 
+  height: 500px;
+  width: 500px;
+}
+
+.left-about-child img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.right-about-child{
+  width: 500px;
+  margin-top: 70px;
+  margin-left: 20px;
+
+}
+.right-about-child h1{
+  font-size: 50px;
+  font: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+  color: white;
+
+}
+.right-about-child h4{
+color: white;
+}
+.right-about-child p{
+  line-height: 25px;
+  color: white;
+}
+
+.About{
+  background: url(../img/medium-5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ box-shadow: 2px 2px 10px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
